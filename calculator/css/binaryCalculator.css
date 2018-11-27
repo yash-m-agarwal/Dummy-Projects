@@ -1,0 +1,33 @@
+body {
+	width: 33%;
+}
+
+.result {
+	background-color: lightgray;
+	border: solid;
+	height: 48px;
+	font-size: 20px;
+}
+
+.button0, .button1, .buttonClr, .buttonEql, .buttonSum, .buttonSub, .buttonMul, .buttonDiv {
+	width: 25%;
+	height: 36px;
+	font-size: 18px;
+	margin: 0px;
+	float: left;
+}
+
+.button0 , .button1 {
+	background-color: lightgreen;
+	color: brown;
+}
+
+.buttonClr, .buttonEql {
+	background-color: darkgreen;
+	color: white;
+}
+
+.buttonSum, .buttonSub, .buttonMul, .buttonDiv {
+	background-color: black;
+	color: red;
+}
